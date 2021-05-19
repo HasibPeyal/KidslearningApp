@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dell.firstproject.A_alphabetActivity">
+
+     <TextView
+         android:layout_marginStart="100dp"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="89dp"
+         android:text="APPLE"
+         android:textColor="#e12121"
+         android:textSize="40sp"
+         android:textStyle="bold"
+         android:id="@+id/a_text"
+         />
+
+     <ImageView
+         android:layout_marginTop="0dp"
+        android:src="@drawable/a_apple_image"
+        android:id="@+id/A_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

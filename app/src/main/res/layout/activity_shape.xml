@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.dell.firstproject.ShapeActivity">
+    <TextView
+        android:layout_marginTop="34dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:id="@+id/finaltext"
+        android:gravity="center"
+        />
+    <ImageView
+         android:layout_margin="34dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/finalimage"
+        android:layout_below="@+id/finaltext"/>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        >
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageButton
+        android:id="@+id/button1Id"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="12dp"
+        android:onClick="one"
+        android:src="@drawable/circle1" />
+
+    <ImageButton
+        android:id="@+id/button2Id"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="12dp"
+        android:onClick="two"
+        android:src="@drawable/rectangle1" />
+    <ImageButton
+        android:layout_marginStart="12dp"
+        android:id="@+id/button3Id"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:src="@drawable/trapizium"
+        android:onClick="three"
+        />
+    <ImageButton
+        android:layout_marginStart="12dp"
+        android:id="@+id/button4Id"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:src="@drawable/circle1"
+        android:onClick="four"
+        />
+    <ImageButton
+        android:layout_marginStart="12dp"
+        android:id="@+id/button5Id"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:src="@drawable/triangle1"
+        android:onClick="five"
+        />
+    <ImageButton
+        android:layout_marginStart="12dp"
+        android:id="@+id/button6Id"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:src="@drawable/square1"
+        android:onClick="six"
+        />
+    <ImageButton
+        android:layout_marginStart="12dp"
+        android:id="@+id/button7Id"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:src="@drawable/rhombus1"
+        android:onClick="seven"
+        />
+    <ImageButton
+        android:layout_marginStart="12dp"
+        android:id="@+id/button8Id"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:src="@drawable/octagon"
+        android:onClick="eight"
+        />
+    <ImageButton
+        android:layout_marginStart="12dp"
+        android:id="@+id/button9Id"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:src="@drawable/hexagon"
+        android:onClick="nine"
+        />
+    <ImageButton
+        android:layout_marginStart="12dp"
+        android:id="@+id/button10Id"
+        android:layout_width="120dp"
+        android:layout_height="130dp"
+        android:src="@drawable/star2"
+        android:onClick="ten"
+        />
+</LinearLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>
+
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d49393"
+    tools:context="com.example.dell.firstproject.Poem">
+    <Button
+        android:text="JOHNYY JOHNYY"
+        android:textColor="#763d6c"
+        android:id="@+id/pbtn1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="lis"
+       android:textSize="23dp"
+        />
+
+    <Button
+        android:text="TWINKLE TWINKLE"
+        android:textColor="#763d6c"
+        android:textSize="23dp"
+        android:id="@+id/pbtn2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignBottom="@+id/pbtn1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="24dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="lis1"/>
+
+    <Button
+        android:text="HUMPTY DUMPTY"
+        android:textColor="#763d6c"
+        android:id="@+id/pbtn3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignStart="@+id/pbtn1"
+        android:layout_below="@+id/pbtn1"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="lis2"
+        android:textSize="23dp"
+         />
+
+    <Button
+        android:text="JACK AND JILL"
+        android:textColor="#763d6c"
+        android:id="@+id/pbtn4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignEnd="@+id/pbtn2"
+        android:layout_alignTop="@+id/pbtn3"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="lis3"
+        android:textSize="23dp"
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="background_color">#fcfcfc</color>
+    <color name="color_for_alphabet">#9a29d8</color>
+    <color name="color_for_number">#df7f7f</color>
+    <color name="color_for_direction">#4f90bc</color>
+    <color name="color_for_shape">#cc2812</color>
+    <color name="color_for_color">#22d6ff</color>
+    <color name="color_for_add">#51b32a49</color>
+
+
+
+    <color name="color_for_dark">#080808</color>
+    <color name="color_for_red">#FF0000</color>
+    <color name="color_for_blue">#0000A0</color>
+    <color name="color_for_green">#008000</color>
+
+    <color name="color_for_orange">#FFA500</color>
+    <color name="color_for_yellow">#FFFF00</color>
+    <color name="color_for_purple">#800080</color>
+    <color name="color_for_magenta">#FF00FF</color>
+    <color name="color_for_hexagon">#655483</color>
+    <color name="color_for_circle">#c2486f</color>
+    <color name="color_for_rectangle">#ae041b</color>
+    <color name="color_for_trapezoid">#1f9b84</color>
+    <color name="color_for_traingle">#b9c907</color>
+    <color name="color_for_square">#b3401d</color>
+    <color name="color_for_rhombus">#3275af</color>
+    <color name="color_for_octagon">#a32f0f</color>
+    <color name="color_for_star">#060404</color>
+
+
+
+</resources>

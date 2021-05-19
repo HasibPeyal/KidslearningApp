@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dell.firstproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/imageabc"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Main3Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".AlphabetActivity"
+            android:label="ALPHABET" />
+        <activity android:name=".NumberActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity
+            android:name=".ColorActivity"
+            android:label="COLOR" />
+        <activity
+            android:name=".ShapeActivity"
+            android:label="SHAPE" />
+        <activity android:name=".DifferentActivity" />
+        <activity
+            android:name=".weekActivity"
+            android:label="WEEK NAME" />
+        <activity
+            android:name=".SeasonActivity"
+            android:label="SEASON NAME" />
+        <activity
+            android:name=".MonthActivity"
+            android:label="MONTH NAME" />
+        <activity android:name=".A_alphabetActivity" />
+        <activity android:name=".c_alphabetActivity" />
+        <activity android:name=".d_alphabetActivity" />
+        <activity android:name=".e_alphabetActivity" />
+        <activity android:name=".f_alphabetActivity" />
+        <activity android:name=".g_alphabetActivity" />
+        <activity android:name=".h_alphabetActivity" />
+        <activity android:name=".I_alphabetActivity" />
+        <activity android:name=".j_alphabetActivity" />
+        <activity
+            android:name=".FlowerActivity"
+            android:label="FLOWER NAME" />
+        <activity
+            android:name=".fruitActivity"
+            android:label="FRUIT NAME" />
+        <activity android:name=".Math" />
+        <activity android:name=".Poem" />
+        <activity android:name=".firstpoem"></activity>
+    </application>
+
+</manifest>

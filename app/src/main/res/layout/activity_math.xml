@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#c1a2a2"
+    tools:context="com.example.dell.firstproject.Math">
+
+    <Button
+        android:id="@+id/numId"
+        android:textStyle="italic"
+        android:background="@drawable/round_button2"
+        android:textColor="#060605"
+        android:text="Number"
+        android:textSize="25sp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:onClick="number"/>
+    <Button
+        android:id="@+id/mathId"
+        android:background="@drawable/round_button2"
+        android:textColor="#070708"
+        android:text="Math"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:onClick="math"/>
+
+
+
+</LinearLayout>
