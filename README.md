@@ -1,4 +1,4 @@
-# KidslearningApp
+# Kids learning App
 Application Name: Kids Learning App
 <br>Description:
 Educational applications are being used to close the contact distance between parents and teachers, as well as between children and teachers. Childhood is a crucial period for learning. And, as children grow more intelligent, there is a pressing need to implement new, specialized learning tools and approaches.
